@@ -15,7 +15,7 @@ function App() {
 
     return (
         <div className="app">
-            <h1>Tip Calculator</h1>
+            <h1>Here's A Tip</h1>
             <div className="input-group">
                 <label>Bill Amount:</label>
                 <input
@@ -27,9 +27,9 @@ function App() {
             <div className="input-group">
                 <label>Select Tip Percentage:</label>
                 <div className="percentage-buttons">
+                    <button onClick={() => calculateTip(10)}>10%</button>
                     <button onClick={() => calculateTip(15)}>15%</button>
                     <button onClick={() => calculateTip(20)}>20%</button>
-                    <button onClick={() => calculateTip(25)}>25%</button>
                 </div>
             </div>
             <div className="results">
