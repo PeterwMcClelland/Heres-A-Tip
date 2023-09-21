@@ -19,10 +19,12 @@ function App() {
             <div className="input-group">
                 <label>Bill Amount:</label>
                 <input
+                    
                     type="number"
                     value={bill}
                     onChange={(e) => setBill(e.target.value)}
                 />
+                
             </div>
             <div className="input-group">
                 <label>Select Tip Percentage:</label>

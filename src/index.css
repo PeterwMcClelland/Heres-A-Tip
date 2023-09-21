@@ -12,3 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Shrikhand&family=Teko&display=swap'); /* font-family: 'Shrikhand', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Raleway+Dots&family=Shrikhand&family=Teko&display=swap'); /* font-family: 'Raleway Dots', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Nabla&family=Raleway+Dots&family=Shrikhand&family=Teko&display=swap'); /* font-family: 'Iceland', cursive; */

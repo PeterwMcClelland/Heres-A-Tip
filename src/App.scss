@@ -1,74 +1,80 @@
 .app {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   max-width: 400px;
   margin: 50px auto;
   padding: 20px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   text-align: center;
-  background-color: #809a7f;
-  
+  background-color: #62b05f;
 
   h1 {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
+    font-family: "Shrikhand", cursive;
   }
 
   .input-group {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
+    font-family: "Iceland", cursive;
+    font-size: larger;
+    color: #1f3c5c;
 
-      label {
-          display: block;
-          margin-bottom: 10px;
-      }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
 
-      input {
-          width: 100%;
-          padding: 10px;
-          box-sizing: border-box;
-          border-radius: 4px;
-          border: 1px solid #ccc;
-      }
+    input {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      font-family: "Shrikhand", cursive;
+    }
   }
 
   button {
-      padding: 10px 20px;
-      border: none;
-      background-color: #007BFF;
-      color: #fff;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: background-color 0.3s;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 
-      &:hover {
-          background-color: #0056b3;
-      }
+    &:hover {
+      background-color: #0056b3;
+    }
   }
 
   .results {
-      margin-top: 20px;
+    margin-top: 20px;
+    font-family: "Iceland", cursive;
+    color: #1f3c5c;
 
-      p {
-          font-size: 1.2em;
-      }
+    p {
+      font-size: 1.2em;
+    }
   }
 }
 
 .percentage-buttons {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 
-    button {
-        padding: 8px 16px;
-        background-color: #007BFF;
-        color: #fff;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        transition: background-color 0.3s;
+  button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 
-        &:hover {
-            background-color: #0056b3;
-        }
+    &:hover {
+      background-color: #0056b3;
     }
+  }
 }
