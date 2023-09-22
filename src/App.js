@@ -33,9 +33,10 @@ function App() {
                     <button onClick={() => calculateTip(10)}>10%</button>
                     <button onClick={() => calculateTip(15)}>15%</button>
                     <button onClick={() => calculateTip(20)}>20%</button>
+
+                   
                 </div>
-            </div>
-            <div className="input-group">
+                <div id='splitbill' className="input-group">
                 <label>Split Bill:</label>
                 <select value={splitCount} onChange={(e) => setSplitCount(e.target.value)}>
                     {Array.from({length: 10}, (_, i) => (
@@ -43,6 +44,8 @@ function App() {
                     ))}
                 </select>
             </div>
+            </div>
+            
             <div className="results">
                 <p><strong>Tip Amount:</strong> ${tip}</p>
                 <p><strong>Total Amount:</strong> ${total}</p>
