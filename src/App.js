@@ -100,13 +100,12 @@ function App() {
           )}
           <div className="news-ticker">
             <div className="news-ticker-content">
-              <span className="news-h1">Tipping News: </span> JFK was known
-              for not tipping and look what happend to him.{" "}
+              <span className="news-h1">Tipping News: </span> JFK was known for
+              not tipping and look what happend to him.{" "}
               <span className="news-h1"> Tipping News: </span> The nation's best
               tippers dine in New Orleans, leaving an average gratuity of 19.7%.{" "}
               <span className="news-h1">Tipping News: </span> Tom Hanks tipped
               $900 for fresh egg rolls.
-              
             </div>
           </div>
         </div>
