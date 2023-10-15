@@ -148,7 +148,6 @@ button.active {
 }
 
 .news-ticker {
-  // position: fixed;
   bottom: 0;
   width: max-content;
   background-color: #1f3c5c;
@@ -157,15 +156,18 @@ button.active {
   width: 100%;
   border-radius: 3px;
   height: 30px;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .news-ticker-content {
   white-space: nowrap;
   display: inline-block;
-  // padding-left: 100%;
   font-size: x-large;
+  animation: scroll-news 35s linear infinite 1s;
   padding-top: 2px;
-  animation: scroll-news 35s linear infinite;
 }
 .news-h1 {
   color: red;
@@ -174,7 +176,7 @@ button.active {
 
 @keyframes scroll-news {
   from {
-    transform: translateX(100%);
+    transform: translateX(0);
   }
   to {
     transform: translateX(calc(-1 * 100%));
