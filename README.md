@@ -22,12 +22,13 @@ This is a tip calculator that can show you have much to tip and also has the opt
 3. Install the dependencies, e.g. `npm i`
 4. in command terminal run `npm start`
 
-## site
+## Site
 
 
-Deployed site:
+Deployed site: https://heres-a-tip-689e97f325a7.herokuapp.com/
 
 Repo: https://github.com/PeterwMcClelland/Heres-A-Tip
+
 
 ## Questions
 
