@@ -104,6 +104,7 @@ function App() {
               tippers dine in New Orleans, leaving an average gratuity of 19.7%.{" "}
               <span className="news-h1">Tipping News: </span> Tom Hanks tipped
               $900 for fresh egg rolls.
+              <span className="news-h1">Tipping News: </span> 15% is fine, don't overthink it.
             </div>
           </div>
         </div>
