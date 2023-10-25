@@ -10,6 +10,7 @@ This is a tip calculator that can show you have much to tip and also has the opt
 - JavaScript
 - CSS/SCSS
 - HTML
+- Google Fonts
 
 ## ScreenShot
 
@@ -24,11 +25,9 @@ This is a tip calculator that can show you have much to tip and also has the opt
 
 ## Site
 
-
 Deployed site: https://heres-a-tip-689e97f325a7.herokuapp.com/
 
 Repo: https://github.com/PeterwMcClelland/Heres-A-Tip
-
 
 ## Questions
 
