@@ -103,8 +103,10 @@ function App() {
               <span className="news-h1"> Tipping News: </span> The nation's best
               tippers dine in New Orleans, leaving an average gratuity of 19.7%.{" "}
               <span className="news-h1">Tipping News: </span> Tom Hanks tipped
-              $900 for fresh egg rolls.
-              <span className="news-h1">Tipping News: </span> 15% is fine, don't overthink it.
+              $900 for fresh egg rolls.{" "}
+              <span className="news-h1">Tipping News: </span> 15% is fine, don't overthink it.{" "}
+              <span className="news-h1">Tipping News: </span> One of the most widely accepted 
+              reasons behind the word “tip” comes from the phrase “To Insure Promptness.”{" "}
             </div>
           </div>
         </div>
